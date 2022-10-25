@@ -1,7 +1,7 @@
 <?php
-$servidor = "localhost";
-$usuario = "root";
-$password = "";
+$servidor = "127.0.0.1";
+$usuario = "prueba";
+$password = "prueba";
 $bd = "notime2waste";
 $conecta = mysqli_connect($servidor, $usuario,$password,$bd);
 if($conecta->connect_error){
