@@ -1,7 +1,7 @@
 <?php
-$servidor = "127.0.0.1";
-$usuario = "prueba";
-$password = "prueba";
+$servidor = "db4free.net:3306";
+$usuario = "po12123";
+$password = "contraseña";
 $bd = "notime2waste";
 $conecta = mysqli_connect($servidor, $usuario,$password,$bd);
 if($conecta->connect_error){
